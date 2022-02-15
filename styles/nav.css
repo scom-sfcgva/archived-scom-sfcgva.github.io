@@ -1,0 +1,92 @@
+.navigation-menu {
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(4 28 65);
+    color: #fff;
+    z-index: 1;
+    border-bottom: 2px solid #ff2671;
+}
+
+.navigation-menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style: none;
+    margin-left: 2.25em;
+}
+
+.navigation-menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    margin: 0 2em;
+    transition: all 0.3s;
+}
+
+.navigation-menu a:hover, .navigation-menu a:active {
+    color: #ff2671;
+}
+
+.navigation-menu .active {
+    border-bottom-color: white;
+    color: #ff2671;
+}
+
+.navigation-menu.sticky {
+    position: fixed;
+    top: 0;
+    animation: fadein-sticky 0.3s ease-out;
+}
+
+@keyframes fadein-sticky {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0;
+    }
+}
+
+.fa-bars {
+    font-size: 2em;
+}
+
+.topnav {
+    display: none;
+    overflow: hidden;
+    background-color: rgb(4 28 65);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 2px solid #ff2671;
+}
+
+.topnav #links {
+    display: none;
+    text-transform: uppercase;
+}
+
+.topnav a {
+    color: #ff2671;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1em;
+}
+
+.topnav #links a {
+    color: #fff;
+}
+
+#github {
+    float: right;
+}

@@ -1,0 +1,74 @@
+.contact {
+    display: block;
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background: rgb(33 41 53);
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.contact>h1 {
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+}
+
+form {
+    width: 40%;
+    margin: 2em auto;
+    position: relative;
+}
+
+input, textarea {
+    background-color: rgb(4 28 65);
+    color: #fff;
+    border: none;
+}
+
+.details, textarea, #submit-button {
+    display: block;
+    width: 100%;
+    margin: 2px auto;
+    padding: 0.5em;
+}
+
+textarea {
+    height: 10em;
+}
+
+#submit-button {
+    margin-top: 5%;
+    width: 35%;
+    background-color: rgb(4 28 65);
+    color: white;
+    border: none;
+}
+
+#submit-button:hover {
+    color: #ff2671;
+}
+
+#response {
+    background: #ff2671;
+    color: rgb(240, 240, 240);
+    text-align: center;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+#response.visible {
+    opacity: 1;
+}
+
+#response.collapse {
+    opacity: 0;
+}
+
+#close {
+    cursor: pointer
+}

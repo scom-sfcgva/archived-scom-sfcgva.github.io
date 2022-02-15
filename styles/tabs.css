@@ -1,0 +1,62 @@
+/* Media Queries */
+
+@media (min-width:671px) {
+    /* .banner {
+    display: flex !important;
+} */
+    /* .about {
+    display: block;
+} */
+    /* .committees {
+    display: flex !important;
+} */
+    /* .gallery {
+    display: block !important;
+} */
+    /* .contact {
+    display: block !important;
+} */
+}
+
+@media (max-width:670px) {
+    .nav-menu {
+        display: none !important;
+    }
+    .tabs {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        flex-wrap: wrap;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
+    .tabs button {
+        background-color: inherit;
+        float: left;
+        border: 0.2px solid white;
+        outline: none;
+        cursor: pointer;
+        padding: 0.7em 0;
+        width: 20%;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+    .tabs button:hover {
+        background-color: #ddd;
+    }
+    .tabs button.active {
+        background-color: #ccc;
+    }
+    .tabcontent {
+        display: none;
+    }
+    #home {
+        display: flex;
+    }
+    svg {
+        display: none;
+    }
+}

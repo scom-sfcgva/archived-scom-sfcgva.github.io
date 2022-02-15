@@ -1,0 +1,407 @@
+@media only screen and (max-width: 1260px) {
+    #ufv+.top-text>h1, #idl-peru+.top-text>h1, #sfc+.top-text>h1, #bigorange+.top-text>h1, #bcit+.top-text>h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .content-grid {
+        margin: 4em 7em;
+    }
+    .content-grid-2 {
+        margin-left: 6em;
+    }
+    .content-grid-3, .content-grid-4 {
+        margin-top: 1em;
+    }
+    .white-arrow {
+        top: 80%;
+    }
+    .projectButtons a {
+        font-size: 1.25em;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .modal-container .modal-content {
+        width: 65vw;
+    }
+    .description button {
+        margin-top: 10px;
+    }
+    form {
+        width: 40%;
+    }
+    #submit-button {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .banner {
+        height: 110vh;
+    }
+    .banner h1 {
+        font-size: 20pt;
+    }
+    .banner .media {
+        margin-left: 2.5em;
+    }
+    .white-arrow {
+        display: none;
+    }
+    .content-grid-1 {
+        margin-top: 0;
+    }
+    .content-grid-3 {
+        width: 110%;
+    }
+    .projectButtons a {
+        font-size: 1em;
+    }
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+    .grid {
+        height: 300px;
+        width: 450px;
+        margin: 0 auto;
+    }
+    @keyframes appear {
+        from {
+            position: absolute;
+            opacity: 0;
+            transform: scale(0);
+            right: 700px;
+        }
+        to {
+            opacity: 1;
+            transform: scale(1);
+            right: 0;
+        }
+    }
+    @keyframes disappear {
+        from {
+            opacity: 1;
+            transform: scale(1);
+            left: 0;
+        }
+        to {
+            position: absolute;
+            opacity: 0;
+            transform: scale(0);
+            left: 700px;
+        }
+    }
+    .contact {
+        padding-top: 20em;
+        padding-bottom: 35em;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .modal-container .modal-content {
+        width: 75%;
+    }
+    .banner h1 {
+        padding-left: 0;
+        margin-left: -25px;
+    }
+    .banner a {
+        padding-right: 0;
+        margin-right: -25px;
+    }
+    .banner img.media, .content-grid-2 img.media {
+        height: 250px;
+    }
+    .about {
+        padding-bottom: 4em;
+    }
+    .about .content-grid {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+    .content-grid-3 {
+        width: 120%;
+    }
+    .content-grid-4 {
+        margin-left: 7em;
+    }
+    .grid .top-text>h1 {
+        font-size: 2em;
+    }
+    #name {
+        font-size: 10pt;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .banner h1 {
+        padding-top: 2em;
+        font-size: 18pt;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .banner h1 {
+        font-size: 16pt;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .carousel {
+        background-position: center;
+    }
+    .description button {
+        margin-top: 25px;
+    }
+    .navigation-menu ul, .navigation-menu li {
+        padding: 0;
+    }
+    .banner {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 5em;
+    }
+    .banner h1 {
+        font-size: 24pt;
+        padding-top: 0;
+        text-align: center;
+        margin-left: 0;
+    }
+    .banner a {
+        padding-top: 2em;
+        margin: 0 auto;
+    }
+    .banner img.media {
+        margin-left: 0;
+    }
+    .contact {
+        padding-bottom: 20em;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .banner {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .content-grid .content-grid-2 {
+        display: none;
+    }
+    .content-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 33% 33% 33%;
+        margin-top: 2em;
+    }
+    .content-grid-1, .content-grid-3 {
+        width: 100%;
+    }
+    .content-grid-3 {
+        margin-top: 0;
+    }
+    .content-grid-4 {
+        margin-top: 3em;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .navigation-menu {
+        justify-content: center;
+    }
+    .navigation-menu li {
+        margin: 0;
+    }
+    .grid:hover .top-text {
+        top: 25%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .about .content-grid {
+        font-size: 12pt;
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+    .grid:hover .top-text {
+        top: 30%;
+    }
+    .grid:hover .bottom-text {
+        opacity: 1;
+        bottom: 30%;
+    }
+    .contact {
+        background: rgb(34 55 89);
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .navigation-menu a {
+        margin: 0 1.7em;
+    }
+    .about .content-grid {
+        font-size: 11pt;
+    }
+    svg {
+        display: none;
+    }
+    .contact {
+        padding-top: 6em;
+        padding-bottom: 6em;
+    }
+    form {
+        width: 50%;
+    }
+    footer {
+        display: none;
+    }
+}
+
+/* Changing to hamburger menu */
+
+@media only screen and (max-width: 600px) {
+    .description .title {
+        font-size: 2em;
+    }
+    .description .info {
+        font-size: 1em;
+    }
+    .topnav {
+        display: block;
+    }
+    #nav-menu {
+        display: none;
+    }
+    .banner {
+        padding-top: 7em;
+    }
+    .about {
+        padding-top: 3.5em;
+    }
+    .about .headline, #portfolio .headline {
+        font-size: 20pt;
+    }
+    .about .content-grid {
+        font-size: 10pt;
+    }
+    .grid:hover .grid-bg {
+        opacity: 1;
+    }
+    .grid .top-text, .grid .bottom-text {
+        display: none;
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -o-transition: none !important;
+        transition: none !important;
+    }
+    .project-link {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .description .info {
+        font-size: 0.85em;
+    }
+    .banner img.media {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .description .title {
+        font-size: 1.5em;
+    }
+    .banner {
+        padding-top: 8.5em;
+    }
+    .banner h1 {
+        font-size: 18pt;
+    }
+    .grid {
+        width: 400px;
+    }
+    #submit-button {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .banner img.media {
+        height: 170px;
+        width: 170px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .banner {
+        height: 120vh;
+    }
+    .grid {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .navigation-menu a {
+        font-size: 1em;
+    }
+    .banner {
+        padding-top: 12em;
+    }
+    .banner img.media {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .banner {
+        height: 100vh;
+        padding-top: 8em;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .banner h1 {
+        margin: 1.5em;
+        font-size: 16pt;
+    }
+    .about .content-grid {
+        font-size: 10pt;
+        margin: 0 2em;
+    }
+    .content-grid-1 {
+        margin: 0;
+        padding: 0;
+    }
+    .content-grid-3, .content-grid-4 {
+        padding-top: 2em;
+    }
+    .projects {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .banner h1 {
+        font-size: 14pt;
+    }
+    .grid {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .about .content-grid {
+        font-size: 9pt;
+        margin: 0 1.5em;
+    }
+    .content-grid-3, .content-grid-4 {
+        padding-top: 3em;
+    }
+}
