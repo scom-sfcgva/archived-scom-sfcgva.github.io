@@ -12,13 +12,11 @@ $(document).ready(function () {
             photo: "./media/scom/socmed2.jpeg",
             imageSlides: ["./media/scom/social-media.jpeg", "./media/scom/socmed3.jpeg", "./media/scom/socmed2.jpeg"]
         },
-        devHub: {
-            title: "Developers Hub",
-            language: "React, Redux, & Node on Express",
-            detail: "Developers Hub is a social media platform for developers. Users can write posts, visit profiles, and create an account. The application is built in React, Redux, Node, and MongoDB.",
-            link: "https://developershub.herokuapp.com/",
-            photo: "./media/developers.jpg",
-            imageSlides: ["./media/devhub/home.jpg", "./media/devhub/profile.jpg", "./media/devhub/profiles.jpg"]
+        events: {
+            title: "Events",
+            detail: "Events.",
+            photo: "./media/scom/events2.jpeg",
+            imageSlides: ["./media/scom/events.jpeg", "./media/scom/events2.jpeg"]
         },
         bigOrange: {
             title: "Big Orange Food Express",

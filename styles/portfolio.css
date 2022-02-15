@@ -115,9 +115,8 @@
   background-position: center;
 }
 
-#ufv {
-  background-color: #00713c;
-  background-image: url("../media/ufv.jpg");
+#event {
+  background-image: url("../media/scom/events2.jpeg");
 }
 
 #media {
