@@ -23,14 +23,6 @@ $(document).ready(function () {
             detail: "Manage storage.",
             photo: "./media/scom/docu.jpeg",
             imageSlides: ["./media/scom/docu2.jpeg", "./media/scom/docu.jpeg"]
-        },
-        nodeMessenger: {
-            title: "Node Messenger",
-            language: "ES6, Socket.io, & Node",
-            detail: "Node Messenger is a chat application that lets users chat in real time. The app is integrated with Socket.io. The application is built in Javascript ES6, Node on Express, and Socket.io",
-            link: "https://nodesocketmessenger.herokuapp.com/",
-            photo: "./media/node_socket.jpg",
-            imageSlides: ["./media/chat/chat.jpg", "./media/chat/home.jpg"]
         }
     };
 
@@ -63,11 +55,6 @@ $(document).ready(function () {
 
         $('#modal .title').text(projects[id].title);
         $('#modal .info').text(projects[id].detail);
-        if (projects[id].link) {
-            $('#modal .button')
-                .parent()
-                .attr('href', projects[id].link);
-        }
 
         $('#modal .carousel').css('background-image', 'url(' + projects[id].imageSlides[0] + ')');
         $('#modal .carousel').addClass('visible');
@@ -87,11 +74,5 @@ $(document).ready(function () {
         }
 
         $('#modal .carousel').css('background-image', 'url(' + modal.imageSlides[selectedIndex] + ')');
-    }
-
-
-    // Portfolio layout in mobile view
-    for (project in projects) {
-        $('#project-list').append('<li class=list-button><a href=' + projects[project].link + ' target=_blank>' + projects[project].title + '</a></li>');
     }
 });

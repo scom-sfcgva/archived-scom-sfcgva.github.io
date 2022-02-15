@@ -105,10 +105,6 @@
   bottom: 35%;
 }
 
-#willpizza {
-  background-image: url("../media/pizza.jpg");
-}
-
 #docu {
   background-image: url("../media/scom/docu.jpeg");
   background-position: center;
@@ -116,6 +112,7 @@
 
 #event {
   background-image: url("../media/scom/events2.jpeg");
+  background-position: center;
 }
 
 #media {
@@ -127,59 +124,6 @@
   background-color: #fff;
   background-image: url("../media/scom/socmed2.jpeg");
   background-position: center;
-}
-
-#titan-22 {
-  background-image: url("../media/titan22.jpg");
-}
-
-#bcit {
-  background-image: url("../media/bcit/bcit.jpg");
-  background-position: center;
-}
-
-#bigorange {
-  background-color: #f2711c;
-  background-image: url("../media/big_orange.jpg");
-  background-position: center;
-}
-
-#messenger {
-  background-color: #235f7c;
-  background-image: url("../media/node_socket.jpg");
-  background-position: center;
-}
-
-#itunes {
-  background-color: #f32c78;
-  background-image: url("../media/itunes.jpg");
-  background-position: center;
-}
-
-.node.collapse {
-  animation: disappear 0.4s ease-out;
-}
-
-.node.removed {
-  display: none;
-}
-
-.node.showup {
-  animation: appear 0.3s ease-out;
-  display: block;
-}
-
-.php.collapse {
-  animation: disappear 0.4s ease-out;
-}
-
-.php.removed {
-  display: none;
-}
-
-.php.showup {
-  animation: appear 0.3s ease-out;
-  display: block;
 }
 
 .html.collapse {
@@ -225,13 +169,6 @@
   margin-top: 2.5em;
   text-align: center;
   font-size: 3em;
-}
-
-#ufv + .top-text > h1,
-#idl-peru + .top-text > h1,
-#bigorange + .top-text > h1,
-#bcit + .top-text > h1 {
-  font-size: 2em;
 }
 
 .button {
