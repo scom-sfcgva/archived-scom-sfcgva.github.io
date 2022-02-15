@@ -1,50 +1,16 @@
 $(document).ready(function () {
     const projects = {
-        willPizzeria: {
-            title: "Will's Pizzeria",
-            language: "React & Node on Express",
-            detail: "Will's Pizzeria is a personal app that lets you order a pizza. Please note the app is only for personal project use not for commercial use. The application is built in React, Node, and MongoDB.",
-            link: "https://willspizzeria.herokuapp.com/",
-            photo: "./media/pizza.jpg",
-            imageSlides: ["./media/pizza/menu.jpg", "./media/pizza/orders.jpg", "./media/pizza/checkout.jpg"]
-        },
-        idl: {
-            title: "Instituto de Defensa Legal",
-            language: "React & (PHP) Wordpress",
-            detail: "Instituto de Defensa Legal (English: Institute of Legal Defense) is an institution of civil society founded in 1983, which aims to promote and defend human rights, democracy and peace in Peru and Latin America. The application is built in React and Wordpress.",
-            link: "https://idl.org.pe/",
-            photo: "./media/idlperu.jpg",
-            imageSlides: ["./media/idl/areas.jpg", "./media/idl/noticas.jpg", "./media/idl/videoclip.jpg"]
-        },
-        ufvManager: {
-            title: "UFV Appointment Manager",
-            language: "Angular & PHP Laravel",
-            detail: "UFV Appointment Manager is an online appointment system by University of the Fraser Valley. Students use it to book appointments with Academic and Career Advisors and Faculty Staff. The application is built in Angular, PHP Laravel, and MySQL.",
-            link: "https://am.ufv.ca/amonline/",
-            photo: "./media/ufv.jpg",
-            imageSlides: ["./media/ufv/advisor.jpg", "./media/ufv/login.jpg", "./media/ufv/qualify.jpg"]
-        },
-        bcitProject: {
-            title: "Advanced Web Design Final Project",
-            language: "CSS with Sass, HTML5, & Javascript",
-            detail: "This final project was a proposal for the new page layout of COMP 1950's course page of the British Columbia Institute of Technology.",
-            link: "https://comp1950final.netlify.app/",
-            photo: "./media/bcit/bcit.jpg",
-            imageSlides: ["./media/bcit/bcit.jpg", "./media/bcit/bcit2.jpg", "./media/bcit/bcit3.jpg", "./media/bcit/bcit4.jpg"]
-        },
         multimedia: {
             title: "Multimedia",
             detail: "Design and create graphics. Make and edit videos.",
             photo: "./media/scom/media2.jpeg",
             imageSlides: ["./media/scom/multimedia.jpeg", "./media/scom/media2.jpeg", "./media/scom/media3.jpeg"]
         },
-        titan22: {
-            title: "Titan 22",
-            language: "jQuery & Magento PHP",
-            detail: "Titan 22 is the leading e-commerce website in the Philippines when it comes to basketball-oriented products from a wide selection of brands like Nike, Jordan, Adidas,  Under Armour, and more. The e-commerce website is built in jQuery, PHP Magento, and MySQL.",
-            link: "https://www.titan22.com/",
-            photo: "./media/titan22.jpg",
-            imageSlides: ["./media/titan22/home.jpg", "./media/titan22/products.jpg", "./media/titan22/products2.jpg", "./media/titan22/blog.jpg"]
+        socialMedia: {
+            title: "Social Media & Communications",
+            detail: "Make and share posts and stories. Promote events.",
+            photo: "./media/scom/socmed2.jpeg",
+            imageSlides: ["./media/scom/social-media.jpeg", "./media/scom/socmed3.jpeg", "./media/scom/socmed2.jpeg"]
         },
         devHub: {
             title: "Developers Hub",

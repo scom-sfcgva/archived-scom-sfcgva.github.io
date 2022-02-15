@@ -87,7 +87,7 @@
 
 .grid:hover .top-text {
   opacity: 1;
-  top: 40%;
+  top: 37%;
 }
 
 .grid .bottom-text {
@@ -125,9 +125,9 @@
   background-position: center;
 }
 
-#idl-peru {
+#socmed {
   background-color: #fff;
-  background-image: url("../media/idlperu.jpg");
+  background-image: url("../media/scom/socmed2.jpeg");
   background-position: center;
 }
 
