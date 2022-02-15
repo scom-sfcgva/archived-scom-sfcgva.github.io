@@ -18,13 +18,11 @@ $(document).ready(function () {
             photo: "./media/scom/events2.jpeg",
             imageSlides: ["./media/scom/events.jpeg", "./media/scom/events2.jpeg"]
         },
-        bigOrange: {
-            title: "Big Orange Food Express",
-            language: "Angular & Node on Express",
-            detail: "Big Orange lets users order food from a wide selection of restaurants in Los Angeles, CA. This app is not intended for commercial use but rather educational. The application is built in Angular, Node on Express, and MySQL.",
-            link: "http://bigorange.herokuapp.com/",
-            photo: "./media/big_orange.jpg",
-            imageSlides: ["./media/bigorange/login.jpg", "./media/bigorange/register.jpg"]
+        docuArchives: {
+            title: "Documentation & Archives",
+            detail: "Manage storage.",
+            photo: "./media/scom/docu.jpeg",
+            imageSlides: ["./media/scom/docu2.jpeg", "./media/scom/docu.jpeg"]
         },
         nodeMessenger: {
             title: "Node Messenger",

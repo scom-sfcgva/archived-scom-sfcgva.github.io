@@ -109,9 +109,8 @@
   background-image: url("../media/pizza.jpg");
 }
 
-#devhub {
-  background-color: #0f0b0bd9;
-  background-image: url("../media/developers.jpg");
+#docu {
+  background-image: url("../media/scom/docu.jpeg");
   background-position: center;
 }
 
