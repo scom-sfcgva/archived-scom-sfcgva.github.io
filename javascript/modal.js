@@ -32,13 +32,11 @@ $(document).ready(function () {
             photo: "./media/bcit/bcit.jpg",
             imageSlides: ["./media/bcit/bcit.jpg", "./media/bcit/bcit2.jpg", "./media/bcit/bcit3.jpg", "./media/bcit/bcit4.jpg"]
         },
-        relentless: {
-            title: "Relentless Conference",
-            language: "React, Redux, and Node on Express",
-            detail: "Relentless is a landing website which includes a registration and payment system for the conference entitled Relentless organized by Singles For Christ. The application is built in React, PHP Laravel, and MySQL.",
-            link: "https://relentless-sfcgva.herokuapp.com/",
-            photo: "./media/sfc.jpg",
-            imageSlides: ["./media/sfc.jpg", "./media/relentless/reg1.jpg", "./media/relentless/posts.jpg", "./media/relentless/about.jpg"]
+        multimedia: {
+            title: "Multimedia",
+            detail: "Design and create graphics. Make and edit videos.",
+            photo: "./media/scom/media2.jpeg",
+            imageSlides: ["./media/scom/multimedia.jpeg", "./media/scom/media2.jpeg", "./media/scom/media3.jpeg"]
         },
         titan22: {
             title: "Titan 22",
@@ -74,7 +72,7 @@ $(document).ready(function () {
         }
     };
 
-    $('#portfolio .button').on('click', function () {
+    $('#teams .button').on('click', function () {
         fillModal(this.id);
         $('.modal-container').addClass('visible');
     });

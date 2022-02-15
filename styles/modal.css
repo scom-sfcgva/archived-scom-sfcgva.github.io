@@ -1,104 +1,104 @@
 .modal-container.visible {
-    pointer-events: initial;
+  pointer-events: initial;
 }
 
 .modal-container {
-    pointer-events: none;
-    position: fixed;
-    z-index: 100;
-    width: 100vw;
-    height: 100vh;
+  pointer-events: none;
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
 }
 
 .modal-container.visible .mask {
-    opacity: 1;
+  opacity: 1;
 }
 
 .modal-container .mask {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    opacity: 0;
-    left: 0;
-    top: 0;
-    transition: opacity 0.3s;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  transition: opacity 0.3s;
 }
 
 .modal-container.visible .modal-content {
-    opacity: 1;
-    transform: scale(1);
+  opacity: 1;
+  transform: scale(1);
 }
 
 .modal-container .modal-content {
-    position: relative;
-    background-color: white;
-    margin: 0 auto;
-    height: 100vh;
-    width: 60vw;
-    opacity: 0;
-    transform: scale(0.8);
-    transition: all 0.3s;
+  position: relative;
+  background-color: white;
+  margin: 0 auto;
+  height: 100vh;
+  width: 60vw;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s;
 }
 
 .carousel.visible {
-    opacity: 1;
+  opacity: 1;
 }
 
 .carousel {
-    height: 62%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    transition: all 0.3s;
+  height: 62%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 0.3s;
 }
 
 .description {
-    margin: 0 5%;
+  margin: 0 5%;
 }
 
 .description .title {
-    color: #ff2671;
-    margin-top: 15px;
-    margin-bottom: 0;
+  color: #1f73bc;
+  margin-top: 15px;
+  margin-bottom: 0;
 }
 
 .description .info {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .description button {
-    border-style: solid;
-    background-color: #ff2671;
-    margin-top: 12px;
-    padding: 7px 10px;
-    color: white;
-    font-size: 1.2em;
-    cursor: pointer;
+  border-style: solid;
+  background-color: #1f73bc;
+  margin-top: 12px;
+  padding: 7px 10px;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
 }
 
 .description button:hover {
-    border: none;
-    background: none;
-    background-color: #fff;
-    color: #ff2671;
-    font-weight: bold;
+  border: none;
+  background: none;
+  background-color: #fff;
+  color: #1f73bc;
+  font-weight: bold;
 }
 
 #border-line {
-    padding: 0;
-    margin: 0;
-    border-top: 1px solid rgb(0, 0, 0, 0.5);
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid rgb(0, 0, 0, 0.5);
 }
 
 .modal-container .close {
-    float: right;
-    font-size: 2em;
-    font-weight: bold;
-    cursor: pointer;
+  float: right;
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .carousel .appSlides {
-    display: none;
+  display: none;
 }

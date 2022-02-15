@@ -1,275 +1,279 @@
 #portfolio {
-    background-color: white;
-    position: relative;
-    /* height: 220vh; */
-    /* min-height: 100px;
+  background-color: white;
+  position: relative;
+  /* height: 220vh; */
+  /* min-height: 100px;
     overflow: hidden;  */
-    padding-top: 6em;
-    padding-bottom: 10em;
+  padding-top: 6em;
+  padding-bottom: 10em;
 }
 
 .projectButtons-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 5em;
-    margin-bottom: 2em;
-    position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  position: relative;
 }
 
 .projectButtons {
-    padding: 0 2.5em;
-    border: none;
-    cursor: pointer;
-    background-color: #fff;
-    ;
+  padding: 0 2.5em;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
 }
 
-.projectButtons:focus, .projectButtons:hover, .projectButtons:active, .projectButtons.active {
-    color: #fff;
-    background-color: rgb(4 28 65);
+.projectButtons:focus,
+.projectButtons:hover,
+.projectButtons:active,
+.projectButtons.active {
+  color: #fff;
+  background-color: rgb(4 28 65);
 }
 
 .projectButtons a {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin-top: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 0;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .grid {
-    position: relative;
-    height: 50vh;
+  position: relative;
+  height: 60vh;
 }
 
 .grid-bg {
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: opacity 0.5s;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: opacity 0.5s;
 }
 
 .grid:hover .grid-bg {
-    opacity: 0;
+  opacity: 0;
 }
 
-.grid-bg>h2 {
-    text-align: center;
-    padding: 25% 0;
+.grid-bg > h2 {
+  text-align: center;
+  padding: 25% 0;
 }
 
 .grid .top-text {
-    opacity: 0;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    transition: all 0.4s ease-in-out;
+  opacity: 0;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.4s ease-in-out;
 }
 
-.grid .top-text>h1 {
-    margin: 0;
-    padding: 0;
+.grid .top-text > h1 {
+  margin: 0;
+  padding: 0;
 }
 
 .grid .top-text span {
-    color: #ff2671;
+  color: #ff2671;
 }
 
 .grid:hover .top-text {
-    opacity: 1;
-    top: 23%;
+  opacity: 1;
+  top: 40%;
 }
 
 .grid .bottom-text {
-    opacity: 0;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    transition: all 0.4s ease-in-out;
+  opacity: 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.4s ease-in-out;
 }
 
 .grid:hover .bottom-text {
-    opacity: 1;
-    bottom: 35%;
+  opacity: 1;
+  bottom: 35%;
 }
 
 #willpizza {
-    background-image: url("../media/pizza.jpg");
+  background-image: url("../media/pizza.jpg");
 }
 
 #devhub {
-    background-color: #0f0b0bd9;
-    background-image: url("../media/developers.jpg");
-    background-position: center;
+  background-color: #0f0b0bd9;
+  background-image: url("../media/developers.jpg");
+  background-position: center;
 }
 
 #ufv {
-    background-color: #00713c;
-    background-image: url("../media/ufv.jpg");
+  background-color: #00713c;
+  background-image: url("../media/ufv.jpg");
 }
 
-#sfc {
-    background-color: #62007a;
-    background-image: url("../media/sfc.jpg");
-    background-position: center;
+#media {
+  background-image: url("../media/scom/media2.jpeg");
+  background-position: center;
 }
 
 #idl-peru {
-    background-color: #fff;
-    background-image: url("../media/idlperu.jpg");
-    background-position: center;
+  background-color: #fff;
+  background-image: url("../media/idlperu.jpg");
+  background-position: center;
 }
 
 #titan-22 {
-    background-image: url("../media/titan22.jpg");
+  background-image: url("../media/titan22.jpg");
 }
 
 #bcit {
-    background-image: url("../media/bcit/bcit.jpg");
-    background-position: center;
+  background-image: url("../media/bcit/bcit.jpg");
+  background-position: center;
 }
 
 #bigorange {
-    background-color: #f2711c;
-    background-image: url("../media/big_orange.jpg");
-    background-position: center;
+  background-color: #f2711c;
+  background-image: url("../media/big_orange.jpg");
+  background-position: center;
 }
 
 #messenger {
-    background-color: #235f7c;
-    background-image: url("../media/node_socket.jpg");
-    background-position: center;
+  background-color: #235f7c;
+  background-image: url("../media/node_socket.jpg");
+  background-position: center;
 }
 
 #itunes {
-    background-color: #f32c78;
-    background-image: url("../media/itunes.jpg");
-    background-position: center;
+  background-color: #f32c78;
+  background-image: url("../media/itunes.jpg");
+  background-position: center;
 }
 
 .node.collapse {
-    animation: disappear 0.4s ease-out;
+  animation: disappear 0.4s ease-out;
 }
 
 .node.removed {
-    display: none;
+  display: none;
 }
 
 .node.showup {
-    animation: appear 0.3s ease-out;
-    display: block;
+  animation: appear 0.3s ease-out;
+  display: block;
 }
 
 .php.collapse {
-    animation: disappear 0.4s ease-out;
+  animation: disappear 0.4s ease-out;
 }
 
 .php.removed {
-    display: none;
+  display: none;
 }
 
 .php.showup {
-    animation: appear 0.3s ease-out;
-    display: block;
+  animation: appear 0.3s ease-out;
+  display: block;
 }
 
 .html.collapse {
-    animation: disappear 0.4s ease-out;
+  animation: disappear 0.4s ease-out;
 }
 
 .html.removed {
-    display: none;
+  display: none;
 }
 
 .html.showup {
-    animation: appear 0.3s ease-out;
-    display: block;
+  animation: appear 0.3s ease-out;
+  display: block;
 }
 
 @keyframes appear {
-    from {
-        opacity: 0;
-        transform: scale(0);
-        top: 400px;
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-        top: 0;
-    }
+  from {
+    opacity: 0;
+    transform: scale(0);
+    top: 400px;
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    top: 0;
+  }
 }
 
 @keyframes disappear {
-    from {
-        opacity: 1;
-        transform: scale(1);
-        top: 0;
-    }
-    to {
-        opacity: 0;
-        transform: scale(0);
-        top: 400px;
-    }
+  from {
+    opacity: 1;
+    transform: scale(1);
+    top: 0;
+  }
+  to {
+    opacity: 0;
+    transform: scale(0);
+    top: 400px;
+  }
 }
 
-.projects>h2 {
-    margin-top: 2.5em;
-    text-align: center;
-    font-size: 3em;
+.projects > h2 {
+  margin-top: 2.5em;
+  text-align: center;
+  font-size: 3em;
 }
 
-#ufv+.top-text>h1, #idl-peru+.top-text>h1, #bigorange+.top-text>h1, #bcit+.top-text>h1 {
-    font-size: 2em;
+#ufv + .top-text > h1,
+#idl-peru + .top-text > h1,
+#bigorange + .top-text > h1,
+#bcit + .top-text > h1 {
+  font-size: 2em;
 }
 
 .button {
-    background-color: white;
-    color: #ff2671;
-    font-size: 15pt;
-    border-color: #ff2671;
+  background-color: #1f73bc;
+  color: white;
+  font-size: 15pt;
+  border-color: #1f73bc;
 }
 
 .button:hover {
-    background-color: #ff2671;
-    color: white;
+  background-color: #3286c4;
+  color: white;
 }
 
 #projects-desktop {
-    /* display: none; */
+  /* display: none; */
 }
 
 #projects-mobile {
-    /* display: none; */
-    margin-top: 2em;
+  /* display: none; */
+  margin-top: 2em;
 }
 
 #project-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .list-button {
-    margin: 1em auto;
-    padding: 1em 0;
-    background-color: yellow;
-    width: 20%;
-    cursor: pointer;
+  margin: 1em auto;
+  padding: 1em 0;
+  background-color: yellow;
+  width: 20%;
+  cursor: pointer;
 }
 
 .project-link {
-    display: none;
-    height: 100%;
-    width: 100%;
+  display: none;
+  height: 100%;
+  width: 100%;
 }
