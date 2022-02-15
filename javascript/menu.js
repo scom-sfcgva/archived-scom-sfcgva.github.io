@@ -26,7 +26,7 @@ $(document).ready(function () {
         var scrollPos = $(document).scrollTop() + 120;
         var homePos = $("#home").position().top;
         var aboutPos = $("#about").position().top;
-        var profilePos = $("#portfolio").position().top;
+        var profilePos = $("#teams").position().top;
         var contactPos = $("#contact").position().top;
 
         if (scrollPos >= homePos && scrollPos < aboutPos) {
