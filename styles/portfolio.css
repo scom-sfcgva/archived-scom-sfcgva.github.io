@@ -29,7 +29,7 @@
 .projectButtons:active,
 .projectButtons.active {
   color: #fff;
-  background-color: rgb(4 28 65);
+  background-color: #2e489b;
 }
 
 .projectButtons a {
@@ -82,7 +82,7 @@
 }
 
 .grid .top-text span {
-  color: #ff2671;
+  color: #78c3f5;
 }
 
 .grid:hover .top-text {
