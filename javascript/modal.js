@@ -2,25 +2,25 @@ $(document).ready(function () {
     const projects = {
         multimedia: {
             title: "Multimedia",
-            detail: "Design and create graphics. Make and edit videos.",
+            detail: "Design and create graphics. Create videos.",
             photo: "./media/scom/media2.jpeg",
             imageSlides: ["./media/scom/multimedia.jpeg", "./media/scom/media2.jpeg", "./media/scom/media3.jpeg"]
         },
         socialMedia: {
-            title: "Social Media & Communications",
-            detail: "Make and share posts and stories. Promote events.",
+            title: "Social Media Communications",
+            detail: "Make and share posts and stories.",
             photo: "./media/scom/socmed2.jpeg",
             imageSlides: ["./media/scom/social-media.jpeg", "./media/scom/socmed3.jpeg", "./media/scom/socmed2.jpeg"]
         },
         events: {
             title: "Events",
-            detail: "Events.",
+            detail: "Promote upcoming events.",
             photo: "./media/scom/events2.jpeg",
             imageSlides: ["./media/scom/events.jpeg", "./media/scom/events2.jpeg"]
         },
         docuArchives: {
-            title: "Documentation & Archives",
-            detail: "Manage storage.",
+            title: "Archives",
+            detail: "Manage documentation of events.",
             photo: "./media/scom/docu.jpeg",
             imageSlides: ["./media/scom/docu2.jpeg", "./media/scom/docu.jpeg"]
         }
