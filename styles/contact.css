@@ -1,77 +1,19 @@
 .contact {
   display: block;
   position: relative;
-  padding-top: 20%;
+  padding-top: 12%;
   padding-bottom: 20%;
   background: rgb(33 41 53);
-}
-
-svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.contact > h1 {
-  text-align: center;
   color: white;
-  margin-top: 1%;
-}
-
-form {
-  width: 40%;
-  margin: 2em auto;
-  position: relative;
-}
-
-input,
-textarea {
-  background-color: #2e489b;
-  color: #fff;
-  border: none;
-}
-
-.details,
-textarea,
-#submit-button {
-  display: block;
-  width: 100%;
-  margin: 2px auto;
-  padding: 0.5em;
-}
-
-textarea {
-  height: 10em;
-}
-
-#submit-button {
-  margin-top: 5%;
-  width: 35%;
-  background-color: #2e489b;
-  color: white;
-  border: none;
-}
-
-#submit-button:hover {
-  color: #78c3f5;
-}
-
-#response {
-  background: #78c3f5;
-  color: rgb(240, 240, 240);
   text-align: center;
-  opacity: 0;
-  transition: all 1s ease-out;
+  margin-top: 200px;
 }
 
-#response.visible {
-  opacity: 1;
+.join-team {
+  margin: 30px auto;
 }
 
-#response.collapse {
-  opacity: 0;
-}
-
-#close {
-  cursor: pointer;
+.join-team__info {
+  line-height: 28px;
+  font-size: 18px;
 }

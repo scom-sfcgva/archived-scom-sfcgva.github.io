@@ -2,25 +2,25 @@ $(document).ready(function () {
     const projects = {
         multimedia: {
             title: "Multimedia",
-            detail: "Design and create graphics. Create videos.",
+            detail: "The Multimedia sub-committee handles the creation of graphics and videos for promoting ministry events.",
             photo: "./media/scom/media2.jpeg",
             imageSlides: ["./media/scom/multimedia.jpeg", "./media/scom/media2.jpeg", "./media/scom/media3.jpeg"]
         },
         socialMedia: {
-            title: "Social Media Communications",
-            detail: "Make and share posts and stories.",
+            title: "Communications",
+            detail: "The Communications sub-committee consists of two components. Internal Communications is charge of the internal communications and is responsible for blasting communication and receiving feedback, while the External Communication includes the social media team, website team, marketing and promotions, research and development.",
             photo: "./media/scom/socmed2.jpeg",
             imageSlides: ["./media/scom/social-media.jpeg", "./media/scom/socmed3.jpeg", "./media/scom/socmed2.jpeg"]
         },
         events: {
             title: "Events",
-            detail: "Promote upcoming events.",
+            detail: "The Events sub-committee primariliy acts as event coordinator of the ministry during events. The role also includes moderating events and keeping track of attendance.",
             photo: "./media/scom/events2.jpeg",
             imageSlides: ["./media/scom/events.jpeg", "./media/scom/events2.jpeg"]
         },
         docuArchives: {
-            title: "Archives",
-            detail: "Manage documentation of events.",
+            title: "Documentation",
+            detail: "The Documentation sub-committee roles includes capturing moments during ministry events in the forms of photos and videos. It also includes recording testimonies of the faith journey of members in the SFC community.",
             photo: "./media/scom/docu.jpeg",
             imageSlides: ["./media/scom/docu2.jpeg", "./media/scom/docu.jpeg"]
         }

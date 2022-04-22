@@ -78,7 +78,7 @@ img.media {
 .content-grid-3,
 .content-grid-4 {
   position: relative;
-  margin-top: 2em;
+  margin-top: 5em;
 }
 
 .content-grid-3 #key-skills,
@@ -209,4 +209,8 @@ img.media {
     opacity: 0;
     transform: rotate(45deg) translate(20px, 20px);
   }
+}
+
+#teams {
+  margin-top: 130px;
 }
